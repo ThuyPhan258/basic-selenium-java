@@ -4,9 +4,10 @@ import driver.driverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import url.Urls;
 
 
-public class formHandling implements Urls{
+public class formHandling implements Urls {
     private static final By usernameSel = By.id("username");
     private static final By passwordSel = By.cssSelector("#password");
     private static final By loginBtnSel = By.cssSelector("[type='submit']");

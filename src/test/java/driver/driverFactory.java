@@ -27,7 +27,7 @@ public class driverFactory {
 
         //Section initialization
         WebDriver driver = new ChromeDriver(chromeOptions);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30)); //Deprecated
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); //Deprecated
 
         return driver;
     }
