@@ -1,13 +1,13 @@
 package api_learning;
 
-import driver.driverFactory;
+import driver.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import url.Urls;
 
 
-public class formHandling implements Urls {
+public class FormHandling implements Urls {
     private static final By usernameSel = By.id("username");
     private static final By passwordSel = By.cssSelector("#password");
     private static final By loginBtnSel = By.cssSelector("[type='submit']");
@@ -15,14 +15,14 @@ public class formHandling implements Urls {
     public static void main(String[] args) throws IllegalAccessException {
         String usernameStr = "tomsmith";
         String passwordStr = "SuperSecretPassword!";
-        WebDriver driver = driverFactory.getChromeDriver();
+        WebDriver driver = DriverFactory.getChromeDriver();
 
         //Open target URL
         String loginUrl = baseUrl.concat(loginSlug);
         driver.get(loginUrl);
 
         try {
-            login(driver, usernameStr, passwordStr);
+            Login(driver, usernameStr, passwordStr);
             Thread.sleep(2000);
         } catch (Exception ignored){
             System.out.println("failed, exception");
@@ -33,7 +33,7 @@ public class formHandling implements Urls {
         }
     }
 
-    private static void login(WebDriver driver, String username, String password) throws InterruptedException {
+    private static void Login(WebDriver driver, String username, String password) throws InterruptedException {
         //Find username element and password element
         WebElement usernameElem = driver.findElement(usernameSel);
         WebElement passwordElem = driver.findElement(passwordSel);

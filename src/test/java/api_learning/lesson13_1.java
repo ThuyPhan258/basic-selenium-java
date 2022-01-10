@@ -1,10 +1,9 @@
 package api_learning;
 
-import driver.driverFactory;
+import driver.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
@@ -17,7 +16,7 @@ import static url.Urls.dynamicControlSlug;
 
 public class lesson13_1 {
     public static void main(String[] args) throws IllegalAccessException {
-        WebDriver driver = driverFactory.getChromeDriver();
+        WebDriver driver = DriverFactory.getChromeDriver();
 
         try{
             driver.get(baseUrl.concat(dynamicControlSlug));

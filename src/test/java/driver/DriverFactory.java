@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-public class driverFactory {
+public class DriverFactory {
     public static WebDriver getChromeDriver() throws IllegalAccessException {
         String currentProjectDirLocation = System.getProperty("user.dir");
 
