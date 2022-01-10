@@ -5,4 +5,5 @@ public interface Urls {
     String loginSlug = "";
     String dynamicControlSlug = "/dynamic_controls";
     String hovers = "/hovers";
+    String dropdown = "/dropdown";
 }
