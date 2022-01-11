@@ -6,4 +6,5 @@ public interface Urls {
     String dynamicControlSlug = "/dynamic_controls";
     String hovers = "/hovers";
     String dropdown = "/dropdown";
+    String iFrame = "/iframe";
 }
