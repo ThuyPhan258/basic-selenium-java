@@ -1,40 +1,45 @@
 package models.pages;
 
 import models.components.global.FooterComponent;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import url.Urls;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+public class LoginPageFactory {
     private static WebDriver driver;
-    private static final By usernameSel = By.id("username");
-    private static final By passwordSel = By.cssSelector("#password");
-    private static final By loginBtnSel = By.cssSelector("[type='submit']");
+    @FindBy(id ="username")
+    private WebElement usernameElem;
+
+    @FindBy(css ="password")
+    private WebElement passwordElem;
+
+    @FindBy(css = "button[type='submit']")
+    private WebElement loginBtnElem;
 
     private final FooterComponent footerComponent;
 
-    public LoginPage(WebDriver driver) {
+    public LoginPageFactory(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(driver, this);
         footerComponent = new FooterComponent(driver);
     }
     private WebElement usernameElem(){
-        return driver.findElement(usernameSel);
+        return usernameElem;
     }
     public void inputUsername(String usernameStr){
         usernameElem().sendKeys(usernameStr);
     }
     private WebElement passwordElem(){
-        return driver.findElement(passwordSel);
+        return passwordElem;
     }
     public void inputPassword(String passwordStr){
         passwordElem().sendKeys(passwordStr);
     }
-    private WebElement loginBtnElem(){
-        return driver.findElement(loginBtnSel);
-    }
-    public void clickOnLoginBtn(){
-        loginBtnElem().click();
+
+    public LoginPageFactory clickOnLoginBtn(){
+        loginBtnElem.click();
+        return this;
     }
 
     public FooterComponent footerComponent(){
