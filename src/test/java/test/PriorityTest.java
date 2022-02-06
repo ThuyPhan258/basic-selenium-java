@@ -23,7 +23,7 @@ public class PriorityTest implements Urls{
     @Test(priority = 1)
     public void zMethod(){
         System.out.println("zMethod");
-        Assert.assertFalse(true);
+        //Assert.assertFalse(true);
     }
 
     @Test(priority = 2, dependsOnMethods = {"zMethod"})
