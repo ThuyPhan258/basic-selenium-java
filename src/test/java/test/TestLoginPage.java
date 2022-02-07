@@ -18,27 +18,31 @@ public class TestLoginPage implements Urls{
 
     public TestLoginPage() throws IllegalAccessException {
     }
-    @BeforeTest
-    public void beforeTest(){
-        System.out.println("LoginTest" + " | BeforeTest");
-    }
-
-    @BeforeClass
-    public void beforeClass(){
-        System.out.println("LoginTest" + " | BeforeClass");
-    }
-
-    @BeforeMethod
-    public void openLoginPage() {
-        //Open target URL
-        String loginUrl = baseUrl.concat(loginSlug);
-        driver.get(loginUrl);
-        System.out.println("LoginTest" + " | BeforeMethod");
-    }
+//    @BeforeTest
+//    public void beforeTest(){
+//        System.out.println("LoginTest" + " | BeforeTest");
+//    }
+//
+//    @BeforeClass
+//    public void beforeClass(){
+//        System.out.println("LoginTest" + " | BeforeClass");
+//    }
+//
+//    @BeforeClass
+//    public void openLoginPage() {
+//        //Open target URL
+//        String loginUrl = baseUrl.concat(loginSlug);
+//        driver.get(loginUrl);
+//        System.out.println("LoginTest" + " | BeforeMethod");
+//    }
     @Test
     public void loginWithCorrectCreds() throws IllegalAccessException {
         String usernameStr = "tomsmith";
         String passwordStr = "SuperSecretPassword!";
+        WebDriver driver = DriverFactory.getChromeDriver();
+
+        String loginUrl = baseUrl.concat(loginSlug);
+        driver.get(loginUrl);
 
         try {
             //create new Page Model Object

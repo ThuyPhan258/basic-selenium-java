@@ -1,0 +1,41 @@
+[ {
+  "uid" : "7df1ce735883d002",
+  "name" : "signUpM01",
+  "time" : {
+    "start" : 1644212972392,
+    "stop" : 1644212972392,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a12d5ddf2575a57",
+  "name" : "loginWithCorrectCreds",
+  "time" : {
+    "start" : 1644212967032,
+    "stop" : 1644212972250,
+    "duration" : 5218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e5d410915347273",
+  "name" : "openLoginPage",
+  "time" : {
+    "start" : 1644212972364,
+    "stop" : 1644212972374,
+    "duration" : 10
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "283fea48f0c7a421",
+  "name" : "signUpM02",
+  "time" : {
+    "start" : 1644212972396,
+    "stop" : 1644212972396,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

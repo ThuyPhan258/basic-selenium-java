@@ -1,0 +1,79 @@
+{
+  "1186d87085897a5b29c8645c421d5d93" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a12d5ddf2575a57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644212967032,
+        "stop" : 1644212972250,
+        "duration" : 5218
+      }
+    } ]
+  },
+  "cdfcf8b51f033291a5c2aa85322d07e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "283fea48f0c7a421",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644212972396,
+        "stop" : 1644212972396,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5862622d3bc4db9768c439f0fc6ff26c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e5d410915347273",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'huys-mbp-2.lan', ip: 'fe80:0:0:0:1839:41a8:17b8:52e0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, get {url=https://the-internet.herokuapp.com//login}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/1k/v9wd8lq17cq...}, goog:chromeOptions: {debuggerAddress: localhost:60614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:60614/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}",
+      "time" : {
+        "start" : 1644212972364,
+        "stop" : 1644212972374,
+        "duration" : 10
+      }
+    } ]
+  },
+  "99c852285b5ca564139682fa769e676" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7df1ce735883d002",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644212972392,
+        "stop" : 1644212972392,
+        "duration" : 0
+      }
+    } ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "uid" : "283fea48f0c7a421",
+  "name" : "signUpM02",
+  "fullName" : "test.SignupTest.signUpM02",
+  "historyId" : "cdfcf8b51f033291a5c2aa85322d07e9",
+  "time" : {
+    "start" : 1644212972396,
+    "stop" : 1644212972396,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openLoginPage",
+    "time" : {
+      "start" : 1644212972394,
+      "stop" : 1644212972394,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1644212972377,
+      "stop" : 1644212972377,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1644212966905,
+      "stop" : 1644212966919,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1644212966922,
+      "stop" : 1644212966922,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.SignupTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.SignupTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "signUpM02"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.SignupTest"
+  }, {
+    "name" : "host",
+    "value" : "huys-mbp-2.lan"
+  }, {
+    "name" : "thread",
+    "value" : "45648@huys-mbp-2.lan.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a7e422a0594b73ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644212937223,
+        "stop" : 1644212937223,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f2e567d97863ff9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644212561450,
+        "stop" : 1644212561450,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "283fea48f0c7a421.json",
+  "parameterValues" : [ ]
+}
