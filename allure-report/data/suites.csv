@@ -1,5 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Feb 06 21:49:32 PST 2022","Sun Feb 06 21:49:32 PST 2022","0","Regression","Authentication","test.SignupTest","test.SignupTest","signUpM02","signUpM02",""
-"passed","Sun Feb 06 21:49:27 PST 2022","Sun Feb 06 21:49:32 PST 2022","5218","Regression","Authentication","test.TestLoginPage","test.TestLoginPage","loginWithCorrectCreds","loginWithCorrectCreds",""
-"broken","Sun Feb 06 21:49:32 PST 2022","Sun Feb 06 21:49:32 PST 2022","10","Regression","Authentication","test.TestLoginPage","test.TestLoginPage","openLoginPage","openLoginPage",""
-"passed","Sun Feb 06 21:49:32 PST 2022","Sun Feb 06 21:49:32 PST 2022","0","Regression","Authentication","test.SignupTest","test.SignupTest","signUpM01","signUpM01",""
+"passed","Mon Feb 07 23:31:46 PST 2022","Mon Feb 07 23:31:51 PST 2022","5204","Regression","Authentication","test.LoginTest","test.LoginTest","loginWithIncorrectCreds","Login Test",""
+"passed","Mon Feb 07 23:31:51 PST 2022","Mon Feb 07 23:31:52 PST 2022","544","Regression","Authentication","test.LoginTest","test.LoginTest","loginWithIncorrectCreds","Login Test",""
+"passed","Mon Feb 07 23:31:52 PST 2022","Mon Feb 07 23:31:52 PST 2022","620","Regression","Authentication","test.LoginTest","test.LoginTest","loginWithcorrectCreds","Login Test",""

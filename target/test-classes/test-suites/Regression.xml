@@ -3,8 +3,8 @@
 <suite name="Regression" verbose="1" >
     <test name="Authentication">
         <classes>
-            <class name="test.TestLoginPage"/>
-            <class name="test.SignupTest"/>
+            <class name="test.LoginTest"/>
+<!--            <class name="test.SignupTest"/>-->
         </classes>
     </test>
 </suite>

@@ -1,0 +1,6 @@
+**Maven command
+mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/test-suites/Regression.xml
+
+**Allure command
+allure generate allure-results --clean
+allure open

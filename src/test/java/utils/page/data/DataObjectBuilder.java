@@ -27,7 +27,7 @@ public class DataObjectBuilder {
     }
 
     public static void main(String[] args) {
-        String jsonDataFileLocation = "/src/test/resources/test_data_authentication/LoginCreds.json";
+        String jsonDataFileLocation = "/src/test/resources/test_data_authentication/InvalidCreds.json";
         CredsData[] credsData = DataObjectBuilder.buildCredObject(jsonDataFileLocation);
         for (CredsData credsDatum : credsData) {
             System.out.println(credsDatum.toString());

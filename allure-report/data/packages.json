@@ -2,68 +2,47 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "test",
+    "name" : "test.LoginTest",
     "children" : [ {
-      "name" : "TestLoginPage",
-      "children" : [ {
-        "name" : "loginWithCorrectCreds",
-        "uid" : "6a12d5ddf2575a57",
-        "parentUid" : "139c1c5ccf6d5978c1bf9f97585fb9eb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1644212967032,
-          "stop" : 1644212972250,
-          "duration" : 5218
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openLoginPage",
-        "uid" : "5e5d410915347273",
-        "parentUid" : "139c1c5ccf6d5978c1bf9f97585fb9eb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1644212972364,
-          "stop" : 1644212972374,
-          "duration" : 10
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "139c1c5ccf6d5978c1bf9f97585fb9eb"
+      "name" : "loginWithIncorrectCreds",
+      "uid" : "4e59d7da516d397e",
+      "parentUid" : "93ca50e1eb623a8012129ac228ea3753",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644305506159,
+        "stop" : 1644305511363,
+        "duration" : 5204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "CredsData{username='username 01', password='password 010'}" ]
     }, {
-      "name" : "SignupTest",
-      "children" : [ {
-        "name" : "signUpM01",
-        "uid" : "7df1ce735883d002",
-        "parentUid" : "ac10cdf793af014021067a713db0bf66",
-        "status" : "passed",
-        "time" : {
-          "start" : 1644212972392,
-          "stop" : 1644212972392,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "signUpM02",
-        "uid" : "283fea48f0c7a421",
-        "parentUid" : "ac10cdf793af014021067a713db0bf66",
-        "status" : "passed",
-        "time" : {
-          "start" : 1644212972396,
-          "stop" : 1644212972396,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ac10cdf793af014021067a713db0bf66"
+      "name" : "loginWithIncorrectCreds",
+      "uid" : "a1d7b686f23efaa5",
+      "parentUid" : "93ca50e1eb623a8012129ac228ea3753",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644305511472,
+        "stop" : 1644305512016,
+        "duration" : 544
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "CredsData{username='username 02', password='password 020'}" ]
+    }, {
+      "name" : "loginWithcorrectCreds",
+      "uid" : "aeb45fb6a9293292",
+      "parentUid" : "93ca50e1eb623a8012129ac228ea3753",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644305512025,
+        "stop" : 1644305512645,
+        "duration" : 620
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
-    "uid" : "d662795e8d349f9b5595bf62f43ea7ae"
+    "uid" : "test.LoginTest"
   } ]
 }

@@ -8,6 +8,20 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.time.Duration;
 
 public class DriverFactory {
+    private WebDriver driver;
+
+    public WebDriver getDriver() throws IllegalAccessException {
+        if (driver == null)
+            driver = getChromeDriver();
+        return driver;
+    }
+
+    public void quitDriver(){
+        if(driver != null)
+            driver.quit();
+        driver = null;
+    }
+
     public static WebDriver getChromeDriver() throws IllegalAccessException {
         String currentProjectDirLocation = System.getProperty("user.dir");
 
@@ -31,4 +45,6 @@ public class DriverFactory {
 
         return driver;
     }
+
+
 }
