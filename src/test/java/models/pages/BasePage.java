@@ -1,5 +1,7 @@
 package models.pages;
 
+import models.components.global.footer.FooterColComponent;
+import models.components.global.footer.FooterComponent;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import utils.page.Scrollhandler;
@@ -12,6 +14,11 @@ public class BasePage {
         this.driver = driver;
         javascriptExecutor = (JavascriptExecutor) driver;
     }
+
+    public FooterComponent footerComponent(){
+        return new FooterComponent(driver);
+    }
+
     public void scrollToTop(){
         Scrollhandler.scrollToTop(javascriptExecutor);
     }

@@ -1,56 +1,5 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ {
-    "name" : "Regression",
-    "children" : [ {
-      "name" : "Authentication",
-      "children" : [ {
-        "name" : "test.LoginTest",
-        "children" : [ {
-          "name" : "Login Test",
-          "uid" : "4e59d7da516d397e",
-          "parentUid" : "4731151165860673372d8dec2b23530d",
-          "status" : "passed",
-          "time" : {
-            "start" : 1644305506159,
-            "stop" : 1644305511363,
-            "duration" : 5204
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "CredsData{username='username 01', password='password 010'}" ]
-        }, {
-          "name" : "Login Test",
-          "uid" : "a1d7b686f23efaa5",
-          "parentUid" : "4731151165860673372d8dec2b23530d",
-          "status" : "passed",
-          "time" : {
-            "start" : 1644305511472,
-            "stop" : 1644305512016,
-            "duration" : 544
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "CredsData{username='username 02', password='password 020'}" ]
-        }, {
-          "name" : "Login Test",
-          "uid" : "aeb45fb6a9293292",
-          "parentUid" : "4731151165860673372d8dec2b23530d",
-          "status" : "passed",
-          "time" : {
-            "start" : 1644305512025,
-            "stop" : 1644305512645,
-            "duration" : 620
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "4731151165860673372d8dec2b23530d"
-      } ],
-      "uid" : "cbc2903f5662287f992d7a286e1d885c"
-    } ],
-    "uid" : "5ba398ba8a4e16d50ebb84d8f641e8da"
-  } ]
+  "children" : [ ]
 }

@@ -1,52 +1,5 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ {
-    "name" : "huys-mbp-2.lan",
-    "children" : [ {
-      "name" : "58974@huys-mbp-2.lan.main(1)",
-      "children" : [ {
-        "name" : "Login Test",
-        "uid" : "a1d7b686f23efaa5",
-        "parentUid" : "a167101bc944bf60bfe25fb52373794a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1644305511472,
-          "stop" : 1644305512016,
-          "duration" : 544
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "CredsData{username='username 02', password='password 020'}" ]
-      }, {
-        "name" : "Login Test",
-        "uid" : "4e59d7da516d397e",
-        "parentUid" : "a167101bc944bf60bfe25fb52373794a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1644305506159,
-          "stop" : 1644305511363,
-          "duration" : 5204
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "CredsData{username='username 01', password='password 010'}" ]
-      }, {
-        "name" : "Login Test",
-        "uid" : "aeb45fb6a9293292",
-        "parentUid" : "a167101bc944bf60bfe25fb52373794a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1644305512025,
-          "stop" : 1644305512645,
-          "duration" : 620
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a167101bc944bf60bfe25fb52373794a"
-    } ],
-    "uid" : "866f0d0a6fa20715eb66399d930df978"
-  } ]
+  "children" : [ ]
 }

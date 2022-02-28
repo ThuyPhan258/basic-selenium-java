@@ -1,44 +1,5 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ {
-    "name" : "Login Test",
-    "uid" : "4e59d7da516d397e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644305506159,
-      "stop" : 1644305511363,
-      "duration" : 5204
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "CredsData{username='username 01', password='password 010'}" ]
-  }, {
-    "name" : "Login Test",
-    "uid" : "a1d7b686f23efaa5",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644305511472,
-      "stop" : 1644305512016,
-      "duration" : 544
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "CredsData{username='username 02', password='password 020'}" ]
-  }, {
-    "name" : "Login Test",
-    "uid" : "aeb45fb6a9293292",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644305512025,
-      "stop" : 1644305512645,
-      "duration" : 620
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  } ]
+  "children" : [ ]
 }

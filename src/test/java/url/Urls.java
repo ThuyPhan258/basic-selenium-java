@@ -9,4 +9,7 @@ public interface Urls {
     String iFrame = "/iframe";
     String floatingMenu = "/floating_menu";
 
+    String BASE_URL = "http://demowebshop.tricentis.com";
+    String HOME_PAGE = "/";
+
 }

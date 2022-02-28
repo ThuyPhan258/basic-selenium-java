@@ -1,11 +1,10 @@
 package models.pages;
 
 import io.qameta.allure.Step;
-import models.components.global.FooterComponent;
+import models.components.global.footer.FooterComponent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import url.Urls;
 
 public class LoginPage {
     private static WebDriver driver;

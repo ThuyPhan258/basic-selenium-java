@@ -1,19 +1,9 @@
 package test;
 
 import driver.DriverFactory;
-import models.components.global.FooterComponent;
-import models.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import url.Urls;
-
-import java.sql.SQLOutput;
 
 public class PriorityTest implements Urls{
     WebDriver driver = DriverFactory.getChromeDriver();

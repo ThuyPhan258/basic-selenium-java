@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Feb 07 23:31:46 PST 2022","Mon Feb 07 23:31:51 PST 2022","5204","Regression","Authentication","test.LoginTest","test.LoginTest","loginWithIncorrectCreds","Login Test",""
-"passed","Mon Feb 07 23:31:51 PST 2022","Mon Feb 07 23:31:52 PST 2022","544","Regression","Authentication","test.LoginTest","test.LoginTest","loginWithIncorrectCreds","Login Test",""
-"passed","Mon Feb 07 23:31:52 PST 2022","Mon Feb 07 23:31:52 PST 2022","620","Regression","Authentication","test.LoginTest","test.LoginTest","loginWithcorrectCreds","Login Test",""

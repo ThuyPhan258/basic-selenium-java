@@ -1,6 +1,6 @@
 package models.pages;
 
-import models.components.global.FooterComponent;
+import models.components.global.footer.FooterComponent;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
