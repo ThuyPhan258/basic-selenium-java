@@ -1,5 +1,175 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "huys-mbp-2.lan",
+    "children" : [ {
+      "name" : "46793@huys-mbp-2.lan.TestNG-test=Authentication-1(18)",
+      "children" : [ {
+        "name" : "testFooterComponent",
+        "uid" : "a4ef0a1933746fbf",
+        "parentUid" : "00394987ab7c08050268346c2588084c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646378090095,
+          "stop" : 1646378099361,
+          "duration" : 9266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00394987ab7c08050268346c2588084c"
+    }, {
+      "name" : "79412@huys-mbp-2.lan.main(1)",
+      "children" : [ {
+        "name" : "testFooterComponent",
+        "uid" : "452c029f4b612d64",
+        "parentUid" : "632b48ac5593b4b39366b37e953042b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646031924639,
+          "stop" : 1646031931246,
+          "duration" : 6607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "632b48ac5593b4b39366b37e953042b4"
+    }, {
+      "name" : "46793@huys-mbp-2.lan.TestNG-test=Authentication-3(20)",
+      "children" : [ {
+        "name" : "testFooterComponent",
+        "uid" : "cefd1bb08f508302",
+        "parentUid" : "73fe8bcc9da18076e960ab6068f4a68f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646378090095,
+          "stop" : 1646378099431,
+          "duration" : 9336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73fe8bcc9da18076e960ab6068f4a68f"
+    }, {
+      "name" : "45056@huys-mbp-2.lan.main(1)",
+      "children" : [ {
+        "name" : "testHeaderComponent",
+        "uid" : "caf1b429eb468560",
+        "parentUid" : "cbbe8e165dc395ca30d4bb22facc0663",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646377509132,
+          "stop" : 1646377522354,
+          "duration" : 13222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbbe8e165dc395ca30d4bb22facc0663"
+    }, {
+      "name" : "46793@huys-mbp-2.lan.TestNG-test=Authentication-4(21)",
+      "children" : [ {
+        "name" : "testHeaderComponent",
+        "uid" : "34b0ad06a44c06d6",
+        "parentUid" : "6208a09f683226eff84fa37558366b88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646378090095,
+          "stop" : 1646378102309,
+          "duration" : 12214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6208a09f683226eff84fa37558366b88"
+    }, {
+      "name" : "73051@huys-mbp-2.lan.TestNG-test=Authentication-1(15)",
+      "children" : [ {
+        "name" : "testFooterComponent",
+        "uid" : "96f2b8e9e7979863",
+        "parentUid" : "7fe3b8411adc5e098e5d7ad03c156675",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646029007539,
+          "stop" : 1646029007550,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "afterMethod",
+        "uid" : "9e6cf5a647c22c52",
+        "parentUid" : "7fe3b8411adc5e098e5d7ad03c156675",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646029007674,
+          "stop" : 1646029007675,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7fe3b8411adc5e098e5d7ad03c156675"
+    }, {
+      "name" : "73619@huys-mbp-2.lan.main(1)",
+      "children" : [ {
+        "name" : "testFooterComponent",
+        "uid" : "e53e45cf814778fa",
+        "parentUid" : "964225bee3186af5277658fb448b4557",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646029271106,
+          "stop" : 1646029278569,
+          "duration" : 7463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "964225bee3186af5277658fb448b4557"
+    }, {
+      "name" : "45105@huys-mbp-2.lan.main(1)",
+      "children" : [ {
+        "name" : "testHeaderComponent",
+        "uid" : "dd27f1abb169f4a7",
+        "parentUid" : "89a94e79b968a080ddd382aedfd8297f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646377562509,
+          "stop" : 1646377571890,
+          "duration" : 9381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89a94e79b968a080ddd382aedfd8297f"
+    }, {
+      "name" : "46793@huys-mbp-2.lan.TestNG-test=Authentication-2(19)",
+      "children" : [ {
+        "name" : "testHeaderComponent",
+        "uid" : "fb1f1804eadbdee8",
+        "parentUid" : "fb391a2ed1d3ef0e93ced7f78325098f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646378090095,
+          "stop" : 1646378102492,
+          "duration" : 12397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb391a2ed1d3ef0e93ced7f78325098f"
+    } ],
+    "uid" : "866f0d0a6fa20715eb66399d930df978"
+  } ]
 }

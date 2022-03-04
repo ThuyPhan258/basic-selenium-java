@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Regression" class="navigator-link">
-              <span class="suite-name border-failed">Regression</span>
+              <span class="suite-name border-passed">Regression</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Regression" class="hide-methods failed suite-Regression"> (hide)</a> <!-- hide-methods failed suite-Regression -->
-                      <a href="#" panel-name="suite-Regression" class="show-methods failed suite-Regression"> (show)</a> <!-- show-methods failed suite-Regression -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression" class="hide-methods passed suite-Regression"> (hide)</a> <!-- hide-methods passed suite-Regression -->
+                      <a href="#" panel-name="suite-Regression" class="show-methods passed suite-Regression"> (show)</a> <!-- show-methods passed suite-Regression -->
                     </span>
-                    <div class="method-list-content failed suite-Regression">
+                    <div class="method-list-content passed suite-Regression">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Regression" title="test.global.HomepageTest" class="method navigator-link" hash-for-method="testFooterComponent">testFooterComponent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Regression -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="test.global.RegisterPageTest" class="method navigator-link" hash-for-method="testFooterComponent">testFooterComponent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="test.global.HomepageTest" class="method navigator-link" hash-for-method="testHeaderComponent">testHeaderComponent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="test.global.RegisterPageTest" class="method navigator-link" hash-for-method="testHeaderComponent">testHeaderComponent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,9 +134,31 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Regression" class="panel Regression">
-          <div class="suite-Regression-class-failed">
+          <div class="suite-Regression-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
+              <span class="class-name">test.global.RegisterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFooterComponent">
+                  </a> <!-- testFooterComponent -->
+                  <span class="method-name">testFooterComponent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHeaderComponent">
+                  </a> <!-- testHeaderComponent -->
+                  <span class="method-name">testHeaderComponent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">test.global.HomepageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -130,20 +167,17 @@
                   <a name="testFooterComponent">
                   </a> <!-- testFooterComponent -->
                   <span class="method-name">testFooterComponent</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: [ERR] Please supply &apos;browser&apos; type value!
-	at driver.DriverFactory.createWebDriver(DriverFactory.java:30)
-	at driver.DriverFactory.getDriver(DriverFactory.java:20)
-	at test.BaseTest.BaseTest.getDriver(BaseTest.java:43)
-	at test.global.HomepageTest.testFooterComponent(HomepageTest.java:14)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 12 stack frames
-</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHeaderComponent">
+                  </a> <!-- testHeaderComponent -->
+                  <span class="method-name">testHeaderComponent</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-failed -->
+          </div> <!-- suite-Regression-class-passed -->
         </div> <!-- panel Regression -->
         <div panel-name="test-xml-Regression" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -157,6 +191,7 @@
   &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Authentication&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.global.HomepageTest&quot;/&gt;
+      &lt;class name=&quot;test.global.RegisterPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Authentication --&gt;
 &lt;/suite&gt; &lt;!-- Regression --&gt;
@@ -170,7 +205,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Authentication (1 class)</span>
+                <span class="test-name">Authentication (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,16 +231,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testFooterComponent')
+data.setCell(0, 1, 'testHeaderComponent')
 data.setCell(0, 2, 'test.global.HomepageTest')
-data.setCell(0, 3, 63);
+data.setCell(0, 3, 12469);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testHeaderComponent')
+data.setCell(1, 2, 'test.global.RegisterPageTest')
+data.setCell(1, 3, 12286);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testFooterComponent')
+data.setCell(2, 2, 'test.global.RegisterPageTest')
+data.setCell(2, 3, 9407);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testFooterComponent')
+data.setCell(3, 2, 'test.global.HomepageTest')
+data.setCell(3, 3, 9251);
 window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 63 ms</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-Regression">
               </div> <!-- times-div-Regression -->
             </div> <!-- times-div -->
@@ -220,9 +267,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Regression" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.global.RegisterPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Regression" class="panel">
@@ -237,20 +293,52 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testFooterComponent</span>
-                <span class="method-start">67 ms</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHeaderComponent</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.global.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testHeaderComponent</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFooterComponent</span>
+                <span class="method-start">72 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">afterMethod([TestResult name=testFooterComponent status=FAILURE method=HomepageTest.testFooterComponent()[pri:0,...)</span>
-                <span class="method-start">251 ms</span>
+                <span class="method-name">afterMethod([TestResult name=testFooterComponent status=SUCCESS method=RegisterPageTest.testFooterComponent()[pr...)</span>
+                <span class="method-start">9645 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.global.HomepageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testFooterComponent status=SUCCESS method=HomepageTest.testFooterComponent()[pri:0,...)</span>
+                <span class="method-start">9645 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.global.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testHeaderComponent status=SUCCESS method=RegisterPageTest.testHeaderComponent()[pr...)</span>
+                <span class="method-start">12360 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.global.HomepageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testHeaderComponent status=SUCCESS method=HomepageTest.testHeaderComponent()[pri:0,...)</span>
+                <span class="method-start">12542 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">293 ms</span>
+                <span class="method-start">12573 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

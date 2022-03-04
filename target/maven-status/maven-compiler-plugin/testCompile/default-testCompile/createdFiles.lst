@@ -1,4 +1,5 @@
 api_learning/lesson13_1.class
+models/components/global/header/HeaderComponent$SearchBoxComp.class
 api_learning/StartBrowser.class
 api_learning/Lesson14_MouseHover$FigureData.class
 api_learning/Lesson14_MouseHover.class
@@ -9,6 +10,7 @@ test/SignupTest.class
 utils/page/Scrollhandler.class
 models/components/global/footer/InformationColumnComponent.class
 models/pages/api_learning/FloatingMenuPage.class
+test_flows/global/HeaderTestFlow.class
 models/components/global/footer/MyAccountColumnComponent.class
 models/pages/BasePage.class
 models/pages/HomePage.class
@@ -22,11 +24,14 @@ api_learning/lesson13_2.class
 models/components/global/footer/FollowUsColumnComponent.class
 models/components/global/footer/FooterColComponent.class
 models/components/global/footer/CustomerColumnComponent.class
+models/pages/RegisterPage.class
 test/TestGson.class
 test/CredsData.class
 driver/DriverFactory.class
 models/pages/LoginPage.class
 test/global/HomepageTest.class
+models/components/global/header/HeaderComponent$LogoComp.class
+test/global/RegisterPageTest.class
 models/components/global/footer/FooterComponent.class
 models/components/global/header/HeaderComponent.class
 utils/page/data/DataObjectBuilder.class

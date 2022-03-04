@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 03 23:14:50 PST 2022","Thu Mar 03 23:15:02 PST 2022","12214","Regression","Authentication","test.global.RegisterPageTest","test.global.RegisterPageTest","testHeaderComponent","testHeaderComponent",""
+"passed","Thu Mar 03 23:14:50 PST 2022","Thu Mar 03 23:14:59 PST 2022","9266","Regression","Authentication","test.global.HomepageTest","test.global.HomepageTest","testFooterComponent","testFooterComponent",""
+"passed","Thu Mar 03 23:14:50 PST 2022","Thu Mar 03 23:14:59 PST 2022","9336","Regression","Authentication","test.global.RegisterPageTest","test.global.RegisterPageTest","testFooterComponent","testFooterComponent",""
+"passed","Thu Mar 03 23:14:50 PST 2022","Thu Mar 03 23:15:02 PST 2022","12397","Regression","Authentication","test.global.HomepageTest","test.global.HomepageTest","testHeaderComponent","testHeaderComponent",""
+"broken","Sun Feb 27 22:16:47 PST 2022","Sun Feb 27 22:16:47 PST 2022","1","Regression","Authentication","test.global.HomepageTest","test.global.HomepageTest","afterMethod","afterMethod",""

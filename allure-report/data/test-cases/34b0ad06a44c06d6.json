@@ -1,0 +1,110 @@
+{
+  "uid" : "34b0ad06a44c06d6",
+  "name" : "testHeaderComponent",
+  "fullName" : "test.global.RegisterPageTest.testHeaderComponent",
+  "historyId" : "684ce45b4b6cc11ccd558b68db2d1edc",
+  "time" : {
+    "start" : 1646378090095,
+    "stop" : 1646378102309,
+    "duration" : 12214
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1646378089969,
+      "stop" : 1646378089976,
+      "duration" : 7
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1646378102311,
+      "stop" : 1646378102311,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1646378102524,
+      "stop" : 1646378103235,
+      "duration" : 711
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.global.RegisterPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.global.RegisterPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testHeaderComponent"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.global.RegisterPageTest"
+  }, {
+    "name" : "host",
+    "value" : "huys-mbp-2.lan"
+  }, {
+    "name" : "thread",
+    "value" : "46793@huys-mbp-2.lan.TestNG-test=Authentication-4(21)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34b0ad06a44c06d6.json",
+  "parameterValues" : [ ]
+}

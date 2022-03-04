@@ -1,5 +1,82 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "test.global",
+    "children" : [ {
+      "name" : "HomepageTest",
+      "children" : [ {
+        "name" : "afterMethod",
+        "uid" : "9e6cf5a647c22c52",
+        "parentUid" : "819758409f87259e5310bee80c85856b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646029007674,
+          "stop" : 1646029007675,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testFooterComponent",
+        "uid" : "a4ef0a1933746fbf",
+        "parentUid" : "819758409f87259e5310bee80c85856b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646378090095,
+          "stop" : 1646378099361,
+          "duration" : 9266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testHeaderComponent",
+        "uid" : "fb1f1804eadbdee8",
+        "parentUid" : "819758409f87259e5310bee80c85856b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646378090095,
+          "stop" : 1646378102492,
+          "duration" : 12397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "819758409f87259e5310bee80c85856b"
+    }, {
+      "name" : "RegisterPageTest",
+      "children" : [ {
+        "name" : "testHeaderComponent",
+        "uid" : "34b0ad06a44c06d6",
+        "parentUid" : "3b1ca9e857c83614e96409196d2316a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646378090095,
+          "stop" : 1646378102309,
+          "duration" : 12214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testFooterComponent",
+        "uid" : "cefd1bb08f508302",
+        "parentUid" : "3b1ca9e857c83614e96409196d2316a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646378090095,
+          "stop" : 1646378099431,
+          "duration" : 9336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b1ca9e857c83614e96409196d2316a9"
+    } ],
+    "uid" : "test.global"
+  } ]
 }

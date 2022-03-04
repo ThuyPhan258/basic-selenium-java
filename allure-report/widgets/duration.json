@@ -1,1 +1,51 @@
-[ ]
+[ {
+  "uid" : "34b0ad06a44c06d6",
+  "name" : "testHeaderComponent",
+  "time" : {
+    "start" : 1646378090095,
+    "stop" : 1646378102309,
+    "duration" : 12214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4ef0a1933746fbf",
+  "name" : "testFooterComponent",
+  "time" : {
+    "start" : 1646378090095,
+    "stop" : 1646378099361,
+    "duration" : 9266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cefd1bb08f508302",
+  "name" : "testFooterComponent",
+  "time" : {
+    "start" : 1646378090095,
+    "stop" : 1646378099431,
+    "duration" : 9336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb1f1804eadbdee8",
+  "name" : "testHeaderComponent",
+  "time" : {
+    "start" : 1646378090095,
+    "stop" : 1646378102492,
+    "duration" : 12397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e6cf5a647c22c52",
+  "name" : "afterMethod",
+  "time" : {
+    "start" : 1646029007674,
+    "stop" : 1646029007675,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

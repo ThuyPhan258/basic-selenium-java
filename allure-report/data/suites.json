@@ -1,5 +1,86 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Regression",
+    "children" : [ {
+      "name" : "Authentication",
+      "children" : [ {
+        "name" : "test.global.HomepageTest",
+        "children" : [ {
+          "name" : "afterMethod",
+          "uid" : "9e6cf5a647c22c52",
+          "parentUid" : "ca35e59a8f6486c0e03ce4c1e60b28c4",
+          "status" : "broken",
+          "time" : {
+            "start" : 1646029007674,
+            "stop" : 1646029007675,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testFooterComponent",
+          "uid" : "a4ef0a1933746fbf",
+          "parentUid" : "ca35e59a8f6486c0e03ce4c1e60b28c4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646378090095,
+            "stop" : 1646378099361,
+            "duration" : 9266
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testHeaderComponent",
+          "uid" : "fb1f1804eadbdee8",
+          "parentUid" : "ca35e59a8f6486c0e03ce4c1e60b28c4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646378090095,
+            "stop" : 1646378102492,
+            "duration" : 12397
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ca35e59a8f6486c0e03ce4c1e60b28c4"
+      }, {
+        "name" : "test.global.RegisterPageTest",
+        "children" : [ {
+          "name" : "testHeaderComponent",
+          "uid" : "34b0ad06a44c06d6",
+          "parentUid" : "3a0f4b7afff175910e2a8dfafddb8f90",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646378090095,
+            "stop" : 1646378102309,
+            "duration" : 12214
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testFooterComponent",
+          "uid" : "cefd1bb08f508302",
+          "parentUid" : "3a0f4b7afff175910e2a8dfafddb8f90",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646378090095,
+            "stop" : 1646378099431,
+            "duration" : 9336
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3a0f4b7afff175910e2a8dfafddb8f90"
+      } ],
+      "uid" : "cbc2903f5662287f992d7a286e1d885c"
+    } ],
+    "uid" : "5ba398ba8a4e16d50ebb84d8f641e8da"
+  } ]
 }

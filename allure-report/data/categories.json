@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "[ERR] Please supply 'browser' type value!",
+      "children" : [ {
+        "name" : "afterMethod",
+        "uid" : "9e6cf5a647c22c52",
+        "parentUid" : "31c60ea7e9ccceebc21c1b330bc883ae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646029007674,
+          "stop" : 1646029007675,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31c60ea7e9ccceebc21c1b330bc883ae"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

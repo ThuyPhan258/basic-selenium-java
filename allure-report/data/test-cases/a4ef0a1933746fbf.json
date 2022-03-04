@@ -1,0 +1,135 @@
+{
+  "uid" : "a4ef0a1933746fbf",
+  "name" : "testFooterComponent",
+  "fullName" : "test.global.HomepageTest.testFooterComponent",
+  "historyId" : "6bebdceeb89fd6eb4819523ba2297870",
+  "time" : {
+    "start" : 1646378090095,
+    "stop" : 1646378099361,
+    "duration" : 9266
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1646378089969,
+      "stop" : 1646378089976,
+      "duration" : 7
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1646378099600,
+      "stop" : 1646378099601,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1646378102524,
+      "stop" : 1646378103235,
+      "duration" : 711
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.global.HomepageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.global.HomepageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFooterComponent"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.global.HomepageTest"
+  }, {
+    "name" : "host",
+    "value" : "huys-mbp-2.lan"
+  }, {
+    "name" : "thread",
+    "value" : "46793@huys-mbp-2.lan.TestNG-test=Authentication-1(18)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "452c029f4b612d64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646031924639,
+        "stop" : 1646031931246,
+        "duration" : 6607
+      }
+    }, {
+      "uid" : "e53e45cf814778fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646029271106,
+        "stop" : 1646029278569,
+        "duration" : 7463
+      }
+    }, {
+      "uid" : "96f2b8e9e7979863",
+      "status" : "broken",
+      "statusDetails" : "[ERR] Please supply 'browser' type value!",
+      "time" : {
+        "start" : 1646029007539,
+        "stop" : 1646029007550,
+        "duration" : 11
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4ef0a1933746fbf.json",
+  "parameterValues" : [ ]
+}

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.488" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.413" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="surefire.suiteXmlFiles" value="src/test/resources/test-suites/Regression.xml"/>
     <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="/Users/huy/IdeaProjects/basic-selenium-java/src/test/resources/driver/chromedriver"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/huy/IdeaProjects/basic-selenium-java/target/test-classes:/Users/huy/IdeaProjects/basic-selenium-java/target/classes:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/huy/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/huy/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/huy/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/huy/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/huy/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/huy/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/huy/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/huy/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/huy/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/huy/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/huy/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/huy/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/huy/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/huy/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/huy/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/huy/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/huy/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/huy/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/huy/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/huy/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/huy/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/huy/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/huy/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/huy/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/huy/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/huy/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/huy/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/huy/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/huy/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/huy/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/huy/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/huy/.m2/repository/io/qameta/allure/allure-testng/2.16.1/allure-testng-2.16.1.jar:/Users/huy/.m2/repository/io/qameta/allure/allure-java-commons/2.16.1/allure-java-commons-2.16.1.jar:/Users/huy/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/huy/.m2/repository/io/qameta/allure/allure-model/2.16.1/allure-model-2.16.1.jar:/Users/huy/.m2/repository/io/qameta/allure/allure-test-filter/2.16.1/allure-test-filter-2.16.1.jar:/Users/huy/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:"/>
@@ -18,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="allure.link.issue.pattern" value="https://example.org/browse/{}"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/huy/IdeaProjects/basic-selenium-java/target/surefire/surefirebooter8999972820558912266.jar /Users/huy/IdeaProjects/basic-selenium-java/target/surefire 2022-02-27T22-16-45_152-jvmRun1 surefire9375638114858465131tmp surefire_011907287998034705315tmp"/>
+    <property name="sun.java.command" value="/Users/huy/IdeaProjects/basic-selenium-java/target/surefire/surefirebooter8882651115231505565.jar /Users/huy/IdeaProjects/basic-selenium-java/target/surefire 2022-03-03T23-14-47_740-jvmRun1 surefire12027275507263605725tmp surefire_017829726229402731209tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/huy/IdeaProjects/basic-selenium-java/target/test-classes:/Users/huy/IdeaProjects/basic-selenium-java/target/classes:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/huy/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/huy/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/huy/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/huy/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/huy/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/huy/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/huy/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/huy/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/huy/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/huy/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/huy/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/huy/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/huy/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/huy/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/huy/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/huy/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/huy/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/huy/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/huy/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/huy/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/huy/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/huy/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/huy/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/huy/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/huy/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/huy/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/huy/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/huy/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/huy/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/huy/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/huy/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/huy/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/huy/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/huy/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/huy/.m2/repository/io/qameta/allure/allure-testng/2.16.1/allure-testng-2.16.1.jar:/Users/huy/.m2/repository/io/qameta/allure/allure-java-commons/2.16.1/allure-java-commons-2.16.1.jar:/Users/huy/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/huy/.m2/repository/io/qameta/allure/allure-model/2.16.1/allure-model-2.16.1.jar:/Users/huy/.m2/repository/io/qameta/allure/allure-test-filter/2.16.1/allure-test-filter-2.16.1.jar:/Users/huy/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -35,7 +36,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/huy/IdeaProjects/basic-selenium-java/target/surefire/surefirebooter8999972820558912266.jar"/>
+    <property name="surefire.real.class.path" value="/Users/huy/IdeaProjects/basic-selenium-java/target/surefire/surefirebooter8882651115231505565.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.10+9"/>
     <property name="user.name" value="huy"/>
@@ -43,6 +44,8 @@
     <property name="os.version" value="10.15.7"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chrome"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="AdoptOpenJDK"/>
     <property name="localRepository" value="/Users/huy/.m2/repository"/>
@@ -61,20 +64,118 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testFooterComponent" classname="test.global.HomepageTest" time="0.067">
-    <failure message="[ERR] Please supply &apos;browser&apos; type value!" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: [ERR] Please supply 'browser' type value!
-	at test.global.HomepageTest.testFooterComponent(HomepageTest.java:14)
-]]></failure>
+  <testcase name="testFooterComponent" classname="test.global.HomepageTest" time="9.308">
     <system-out><![CDATA[[Configuration] [WARN] Detected a static method [test.BaseTest.BaseTest.beforeSuite()]. Static configuration methods can cause  unexpected behavior.
 [Configuration] [WARN] Detected a static method [test.BaseTest.BaseTest.afterSuite()]. Static configuration methods can cause  unexpected behavior.
+[Configuration] [WARN] Detected a static method [test.BaseTest.BaseTest.beforeSuite()]. Static configuration methods can cause  unexpected behavior.
+[Configuration] [WARN] Detected a static method [test.BaseTest.BaseTest.afterSuite()]. Static configuration methods can cause  unexpected behavior.
+Logo Link: 
+Logo Img: http://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png
+INFORMATION
+Register:http://demowebshop.tricentis.com/register
+Sitemap
+http://demowebshop.tricentis.com/sitemap
+Log in:http://demowebshop.tricentis.com/login
+Shipping & Returns
+INFORMATION
+http://demowebshop.tricentis.com/shipping-returns
+Shopping cart
+(0):http://demowebshop.tricentis.com/cart
+Sitemap
+Privacy Notice
+Wishlist
+(0):http://demowebshop.tricentis.com/wishlist
+http://demowebshop.tricentis.com/privacy-policy
+Logo Link: 
+http://demowebshop.tricentis.com/sitemap
+Conditions of Use
+Shipping & Returns
+http://demowebshop.tricentis.com/conditions-of-use
+http://demowebshop.tricentis.com/shipping-returns
+Logo Img: http://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png
+About us
+Privacy Notice
+http://demowebshop.tricentis.com/about-us
+http://demowebshop.tricentis.com/privacy-policy
+Contact us
+Conditions of Use
+null
+http://demowebshop.tricentis.com/contactus
+http://demowebshop.tricentis.com/conditions-of-use
+About us
+Register:http://demowebshop.tricentis.com/register
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SSttaarrStittnargt iiCnnhggr o CmhCherroommeeDrDirvievre r98 .908D.4r.70i5v.8e4.r78 5898..8000 .(47 7(5f78.0f84004 8888ee88(b7bafa0004dd888e8e001199118877ecc683ba250ad16c82e90d199b6178f3749285ca16362c52a91d699-br7fe4c9f289s9d/-9brbre7afnf4sc9/h8b-9hr-eraaenfscd/brsha/4n7-c5hh8-@eh{a#ed9as7/d24s}7/)54 8o7@n5{ #8p9@o7r2t}{ )# 59o4n78 42p8}o
+)rO tnol ny 6 2pl7oorc6ta4l 
+5 O9cn9o5nl0n
+yeOc ntlliyo onlsco caaarlel  c ocnonnencetions are allowed.
+Placelastleo wiseee httdps:/./ons
+ achrromee drailvPleolwera.escedh .rs
+oePmeli euhamts.teop rssg:e//es e/hcctuhtrrpoismt:ye/-d/crocinhvsreiorm.ecdhrrdiovemeirru.amtc.ihoorrnogsm/ sifeuocrumr .iosrtugyg-/gcsoneecsutrsiioitnyds-e croaontnsi okinesedp eifrnogra t suiCgoghnersosm teifDoornris v seourng  gkseeafseetpii.nog
+ ChromeDriver safe.
+ns [o1n6 4k6e3ep7in8g0S 9Ct0ha.rr9to9im6ne]gD[ WrCAihvrRoeNrI NsGa]m:e DFrriovemfreS .o9C
+ch8kC.rA0od.m4h7erD5ro8im.ve8er0D wraiv[e1r  s6w4 6asst asr3tt7ae8rdt es0ud9c 0cs.eu9sc9sc7fe]usl[slWfyAu.Rl
+NlIyN.G(
+]7:f 0F[4r1886oe468mb3Sa7o08dc08k9eA00d.d19r99 18f8]a7i[lWeARdd NCrIo hNnr foanmeeiDtlemrdais vkoencG 6n3]e2t:5ma a1Fs6rkc
+o2m9[Sd19o6bc4r was7 sft4a9r8t9e-d rseufccse/
+sbsrfaunlclhy.-
+he6[a1d3s67/4864073957088.@09{9k0#9A96]d.[7dW29r}A)R N9I7N]oG[n]W :pA oRFrNoIrmNtS Go]5c:k AFd7ro6dm7rSo cfaik5Al
+deOddnr  ofnal iynl eeltdmo acoasnlk 
+ nce tofmnanasekci
+tlieodn so na rnetem aasllko
+[1we6d4.6
+378090.998][WARNING]: FromSockAddr failed on netmask
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1646378091.004][WARNING]: FromSockAddr failed on netmask
+[1646378091.004][WARNING]: FromSockAddr failed on netmask
+[1646378094.853][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+[1646378094.899][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+[1646378094.934][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+[1646378094.955][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 95
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 99 of 95
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 95
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 95
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 99 of 95
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 95
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 99 of 95
+Mar 03, 2022 11:14:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 99 of 95
 ]]></system-err>
   </testcase>
-  <testcase name="afterMethod[[TestResult name=testFooterComponent status=FAILURE method=HomepageTest.testFooterComponent()[pri:0, instance:test.global.HomepageTest@7435a578] output={null}]](0)" classname="test.global.HomepageTest" time="0.191">
-    <failure message="[ERR] Please supply &apos;browser&apos; type value!" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: [ERR] Please supply 'browser' type value!
-]]></failure>
+  <testcase name="testHeaderComponent" classname="test.global.HomepageTest" time="12.465"/>
+  <testcase name="testFooterComponent" classname="test.global.RegisterPageTest" time="9.405">
+    <system-out><![CDATA[http://demowebshop.tricentis.com/about-us
+Contact us
+Log in:http://demowebshop.tricentis.com/login
+http://demowebshop.tricentis.com/contactus
+]]></system-out>
+  </testcase>
+  <testcase name="testHeaderComponent" classname="test.global.RegisterPageTest" time="12.282">
+    <system-out><![CDATA[Shopping cart
+(0):http://demowebshop.tricentis.com/cart
+Wishlist
+(0):http://demowebshop.tricentis.com/wishlist
+null
+]]></system-out>
   </testcase>
 </testsuite>

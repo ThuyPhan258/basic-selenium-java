@@ -2,6 +2,7 @@ package models.pages;
 
 import models.components.global.footer.FooterColComponent;
 import models.components.global.footer.FooterComponent;
+import models.components.global.header.HeaderComponent;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import utils.page.Scrollhandler;
@@ -17,6 +18,10 @@ public class BasePage {
 
     public FooterComponent footerComponent(){
         return new FooterComponent(driver);
+    }
+
+    public HeaderComponent headerComponent(){
+        return new HeaderComponent(driver);
     }
 
     public void scrollToTop(){

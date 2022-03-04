@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.488 s <<< FAILURE! - in TestSuite
-test.global.HomepageTest.testFooterComponent  Time elapsed: 0.067 s  <<< FAILURE!
-java.lang.IllegalArgumentException: [ERR] Please supply 'browser' type value!
-	at test.global.HomepageTest.testFooterComponent(HomepageTest.java:14)
-
-test.global.HomepageTest.afterMethod[[TestResult name=testFooterComponent status=FAILURE method=HomepageTest.testFooterComponent()[pri:0, instance:test.global.HomepageTest@7435a578] output={null}]](0)  Time elapsed: 0.191 s  <<< FAILURE!
-java.lang.IllegalArgumentException: [ERR] Please supply 'browser' type value!
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.413 s - in TestSuite

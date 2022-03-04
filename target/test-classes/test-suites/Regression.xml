@@ -4,7 +4,7 @@
     <test name="Authentication">
         <classes>
             <class name="test.global.HomepageTest"/>
-<!--            <class name="test.SignupTest"/>-->
+            <class name="test.global.RegisterPageTest"/>
         </classes>
     </test>
 </suite>

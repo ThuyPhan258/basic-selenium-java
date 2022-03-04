@@ -18,12 +18,15 @@
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/models/components/global/footer/MyAccountColumnComponent.java
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/driver/DriverFactory.java
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/models/components/global/footer/FooterComponent.java
+/Users/huy/IdeaProjects/basic-selenium-java/src/test/java/test/global/RegisterPageTest.java
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/api_learning/Lesson14_Dropdown.java
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/test/global/HomepageTest.java
+/Users/huy/IdeaProjects/basic-selenium-java/src/test/java/test_flows/global/HeaderTestFlow.java
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/test/BaseTest/BaseTest.java
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/test/SignupTest.java
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/api_learning/lesson13_1.java
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/models/components/global/footer/FooterColComponent.java
+/Users/huy/IdeaProjects/basic-selenium-java/src/test/java/models/pages/RegisterPage.java
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/test/CredsData.java
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/models/pages/LoginPageFactory.java
 /Users/huy/IdeaProjects/basic-selenium-java/src/test/java/models/pages/LoginPage.java

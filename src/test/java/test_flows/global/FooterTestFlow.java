@@ -86,5 +86,6 @@ public class FooterTestFlow {
     public static void main(String[] args) throws NoSuchMethodException {
         FooterTestFlow footerTestFlow = new FooterTestFlow(null);
         footerTestFlow.verifyFooterComponent(HomePage.class);
+
     }
 }
